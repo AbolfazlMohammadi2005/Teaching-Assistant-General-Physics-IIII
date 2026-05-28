@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{amsmath, amssymb, amstext}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\setlength{\headheight}{15pt} 
+\lhead{کوییز درس فیزیک مدرن}
+\chead{دانشکده فیزیک دانشگاه صنعتی خواجه نصیرالدین طوسی}
+\rhead{\today}
+\usepackage{xepersian}
+\settextfont{B Nazanin}
+
+\begin{document}
+	
+	\begin{tabular}{|p{7cm}|p{7cm}|}
+		\hline
+		\textbf{نام و نام خانوادگی:} & \textbf{شماره دانشجویی:} \\
+		\hline
+	\end{tabular}
+	
+	
+	\section*{سوالات:}
+	\begin{enumerate}
+		\item 
+		
+		اتمی با جرم $m_1 = m$ در جهت مثبت $x$ با سرعت $v_1 = v$ حرکت می‌کند. این اتم با اتمی به جرم $m_2 = 2m$ که در جهت مثبت $y$ با سرعت $v_2 = 2v/3$ حرکت می‌کند، برخورد کرده و به آن می‌چسبد. سرعت حاصل و جهت حرکت ترکیب را پیدا کنید، و همچنین انرژی جنبشی تلف شده در این برخورد ناکشسان را بیابید.
+		\item 
+		
+		تابع چگالی احتمال سرعت برای یک مولکول گاز ایده‌ال با جرم $m$ در دمای $T$ به صورت زیر است:
+		
+		\[
+		f(v) = \sqrt{\frac{2}{\pi}} \, \left( \frac{m}{k_B T} \right)^{3/2} v^{2} \, \exp\left( -\frac{m v^{2}}{2 k_B T} \right), \quad v \ge 0
+		\]
+		
+		که $k_B$ ثابت بولتزمن است.
+		\\
+		\\
+		
+		ثابت کنید:
+		
+		\subsection*{الف) نرمالیزه بودن}
+		\[
+		\int_{0}^{\infty} f(v) \, dv = 1
+		\]
+		
+		\subsection*{ب) ممان اول (میانگین سرعت)}
+		\[
+		\langle v \rangle = \int_{0}^{\infty} v \, f(v) \, dv = \sqrt{\frac{8 k_B T}{\pi m}}
+		\]
+		
+		\subsection*{پ) ممان دوم (میانگین مربع سرعت)}
+		\[
+		\langle v^{2} \rangle = \int_{0}^{\infty} v^{2} \, f(v) \, dv = \frac{3 k_B T}{m}
+		\]
+		
+		\subsection*{ت) واریانس سرعت}
+		\[
+		\sigma_v^{2} = \langle v^{2} \rangle - \langle v \rangle^{2}
+		= \frac{3 k_B T}{m} - \frac{8 k_B T}{\pi m}
+		= \frac{k_B T}{m} \left( 3 - \frac{8}{\pi} \right)
+		\]
+		
+	
+		
+	\end{enumerate}
+	
+	\vspace{10pt}
+	\textbf{موفق باشید.}
+	
+\end{document}
